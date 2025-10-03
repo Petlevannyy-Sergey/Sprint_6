@@ -20,5 +20,4 @@ public class AnimalTests {
         Exception exception = assertThrows(Exception.class, () -> new Animal().getFood("undefined"));
         assertEquals("Неизвестный вид животного, используйте значение Травоядное или Хищник", exception.getMessage());
     }
-
 }

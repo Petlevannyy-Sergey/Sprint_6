@@ -29,7 +29,6 @@ public class LionTests {
         int expectedKittensCount = 3;
         Mockito.when(feline.getKittens()).thenReturn(expectedKittensCount);
         assertEquals("Ошибка в методе getKittens", expectedKittensCount, lion.getKittens());
-
     }
 
     @Test
